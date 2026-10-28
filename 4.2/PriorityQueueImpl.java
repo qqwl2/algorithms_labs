@@ -1,5 +1,7 @@
 import java.util.*;
 
+// обычная приоритетная очередь, но с доп массивом 
+// в котором лежит индекс элемента, который вставили на операции i
 public class PriorityQueueImpl implements PriorityQueue<Integer> {
 
     private List<int[]> heap = new ArrayList<>();
